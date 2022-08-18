@@ -22,7 +22,6 @@ M.basic = {
 M.packer = {
   n = {
     -- Packer
-    ["<leader>pc"] = { "<cmd>PackerCompile<cr>", "Packer Compile" },
     ["<leader>pi"] = { "<cmd>PackerInstall<cr>", "Packer Install" },
     ["<leader>ps"] = { "<cmd>PackerSync<cr>", "Packer Sync" },
     ["<leader>pS"] = { "<cmd>PackerStatus<cr>", "Packer Status" },

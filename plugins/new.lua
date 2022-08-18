@@ -12,4 +12,6 @@ return {
       require "custom.plugins.null-ls"
     end,
   },
+  -- Lspkind for better icons
+  ["onsails/lspkind.nvim"] = {},
 }
