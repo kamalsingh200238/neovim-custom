@@ -14,4 +14,10 @@ return {
   },
   -- Lspkind for better icons
   ["onsails/lspkind.nvim"] = {},
+    ["hrsh7th/nvim-cmp"] = {
+    after = "friendly-snippets",
+    config = function ()
+      require "custom.plugins.cmp"
+    end
+  },
 }

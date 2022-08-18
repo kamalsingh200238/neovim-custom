@@ -11,7 +11,6 @@ M.plugins = {
   -- override = require "custom.plugins.override",
   override = {
     ["nvim-treesitter/nvim-treesitter"] = require "custom.plugins.treesitter",
-    ["hrsh7th/nvim-cmp"] = require "custom.plugins.cmp",
   },
 }
 
