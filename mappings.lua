@@ -19,9 +19,9 @@ M.basic = {
   },
 }
 
+-- Packer
 M.packer = {
   n = {
-    -- Packer
     ["<leader>pc"] = { "<cmd>PackerCompile<cr>", "Packer Compile" },
     ["<leader>pi"] = { "<cmd>PackerInstall<cr>", "Packer Install" },
     ["<leader>ps"] = { "<cmd>PackerSync<cr>", "Packer Sync" },
@@ -37,4 +37,5 @@ M.nvimtree = {
     ["<leader>o"] = { "<cmd> NvimTreeFocus <cr>", "Focus Explorer" },
   },
 }
+
 return M
