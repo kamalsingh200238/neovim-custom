@@ -13,9 +13,6 @@ M.basic = {
     ["<leader>q"] = { "<cmd>q<cr>", "Quit" },
     ["<C-s>"] = { "<cmd>w!<cr>", "Force write" },
     ["<C-q>"] = { "<cmd>q!<cr>", "Force quit" },
-
-    -- For no Highlighting
-    ["<leader>h"] = { "<cmd>nohlsearch<cr>", "No Highlight" },
   },
 }
 

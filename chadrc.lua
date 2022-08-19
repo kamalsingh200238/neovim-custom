@@ -1,7 +1,7 @@
 local M = {}
 
 M.ui = {
-  theme = "gruvbox",
+  theme = "gruvchad",
 }
 
 M.mappings = require "custom.mappings"

@@ -4,6 +4,6 @@ return {
     side = "right",
     width = 30,
     hide_root_folder = false,
-    relativenumber = true,
+    -- relativenumber = true,
   },
 }
