@@ -5,6 +5,9 @@ return {
       require "custom.plugins.lsp"
     end,
   },
+  -- Lspkind for better icons
+  ["onsails/lspkind.nvim"] = {},
+
   -- Null-ls Setup
   ["jose-elias-alvarez/null-ls.nvim"] = {
     after = "nvim-lspconfig",
@@ -12,12 +15,17 @@ return {
       require "custom.plugins.null-ls"
     end,
   },
-  -- Lspkind for better icons
-  ["onsails/lspkind.nvim"] = {},
-    ["hrsh7th/nvim-cmp"] = {
+
+  -- For cmp
+  ["hrsh7th/nvim-cmp"] = {
     after = "friendly-snippets",
-    config = function ()
+    config = function()
       require "custom.plugins.cmp"
-    end
+    end,
   },
+
+  -- Parenthesis highlighting
+  ["p00f/nvim-ts-rainbow"] = { after = "nvim-treesitter" },
+  -- Autoclose tags
+  ["windwp/nvim-ts-autotag"] = { after = "nvim-treesitter" },
 }
