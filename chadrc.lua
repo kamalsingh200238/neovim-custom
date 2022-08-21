@@ -7,10 +7,10 @@ M.ui = {
 M.mappings = require "custom.mappings"
 
 M.plugins = {
-  user = require "custom.plugins.new",
+  user = require "custom.plugins",
   override = {
-    ["nvim-treesitter/nvim-treesitter"] = require "custom.plugins.treesitter",
-    ["kyazdani42/nvim-tree.lua"] = require "custom.plugins.nvimtree",
+    ["nvim-treesitter/nvim-treesitter"] = require " custom.plugins.override.treesitter",
+    ["kyazdani42/nvim-tree.lua"] = require "custom.plugins.override.nvimtree",
   },
 }
 
