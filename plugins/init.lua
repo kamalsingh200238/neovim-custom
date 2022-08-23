@@ -2,7 +2,7 @@ return {
   -- Lsp setup
   ["neovim/nvim-lspconfig"] = {
     config = function()
-      require "custom.plugins.lsp"
+      require "custom.plugings.new.lsp"
     end,
   },
   -- Lspkind for better icons
@@ -12,7 +12,7 @@ return {
   ["jose-elias-alvarez/null-ls.nvim"] = {
     after = "nvim-lspconfig",
     config = function()
-      require "custom.plugins.null-ls"
+      require "custom.plugings.new.null-ls"
     end,
   },
 
@@ -20,7 +20,7 @@ return {
   ["hrsh7th/nvim-cmp"] = {
     after = "friendly-snippets",
     config = function()
-      require "custom.plugins.cmp"
+      require "custom.plugings.new.cmp"
     end,
   },
 
