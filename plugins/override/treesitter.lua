@@ -42,13 +42,13 @@ return {
     extended_mode = false,
     max_file_lines = nil,
     colors = {
-      "#00d4ad",
-      "#ed5b07",
-      "#fac71e",
       "#2de009",
-      "#060e9c",
-      "#640b9c",
+      "#fac71e",
+      "#00d4ad",
+      "#ffffff",
       "#c40491",
+      "#ed5b07",
+      "#640b9c",
     },
   },
 

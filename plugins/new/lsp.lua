@@ -6,7 +6,7 @@ if not present then
 end
 
 --Server that you want to setup
-local servers = { "emmet_ls", "tsserver", "sumneko_lua", "tailwindcss", "svelte" }
+local servers = { "pyright", "emmet_ls", "tsserver", "sumneko_lua", "tailwindcss", "svelte" }
 
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
